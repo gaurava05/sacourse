@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Summer Analytics 2020</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+  <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!--===============================================================================================-->
+
+</head>  
+  <body>
+    <div id="welcome" class="welcome">
+        <img class="cna-logo" src="images/logo_white.png">
+        <p class="welcome-title" style="margin-bottom: 2vh;">Consulting & Analytics Club, IIT Guwahati's</p></p>
+      <span class="welcome-title">
+        <h1>SUMMER ANALYTICS</h1>
+      </span>
+      <span class="welcome-title">
+        <p class="welcome-title">A primer course on <strong>Data Science</strong></p>
+      </span>
+    </div>
+    
+  <div class="section-layout">
+   
+   <nav class="navigation" id="navigation">
+      <button class="nav-link" onclick="openWeek(event, 'week1')" id="defaultOpen">Week 1</button>
+      <button class="nav-link" onclick="openWeek(event, 'week2')">Week 2</button>
+      <button class="nav-link" onclick="openWeek(event, 'week3')">Week 3</button>
+      <button class="nav-link" onclick="openWeek(event, 'week4')">Week 4</button>
+      <button class="nav-link" onclick="openWeek(event, 'week5')">Week 5</button>
+      <button class="nav-link disabled" onclick="openWeek(event, '')">Week 6</button>
+    </nav>
+    
+   <div class="right-content">
+    <div id='week1' class="tabcontent">
+    <div class="limiter">
+      <div class="container-table100">
+        <div class="wrap-table100">
+    <div class="table100 ver3 m-b-110">
+      <table data-vertable="ver3">
+        <thead>
+          <tr class="row100 head">
+            <th class="column100 column1" data-column="column1">Week 1</th>
+            <th class="column100 column2" data-column="column1">What's in there?</th>
+            <th class="column100 column3" data-column="column2">Task 1</th>
+            <th class="column100 column4" data-column="column3">Task 2</th>
+            <th class="column100 column5" data-column="column4">Task 3</th>          
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row100">
+            <td class="column100 column1" data-column="column1">Day 0</td>
+            <td class="column100 column2" data-column="column1">Getting Started <br/> Follow two links on the right before proceeding</td>
+            <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://caciitg.in/sa2020/setting_environment.html'>Setting up your Environent  <i class="fas fa-external-link-alt"></i>
+            <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://drive.google.com/file/d/1lqL2xTYAWE2mwXPXhXW1Ptz3sfhh7vPL/view?usp=sharing'>Enrollment Instructions for Coursera  <i class="fas fa-external-link-alt"></i>
+            </a></td>
+            <td class="column100 column5" data-column="column4">---</td>
+          </tr>
+          <tr class="row100">
+            <td class="column100 column1" data-column="column1">Day 1</td>
+            <td class="column100 column2" data-column="column1">Hey, excited?<br/> Welcome to Summer Analytics 2020. <br/>We'll start this amazing journey by peeking into basics of <strong>Python</strong>.</td>
+            <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.coursera.org/learn/python-for-applied-data-science-ai'>Python Basics <br/>( Complete Week 1)  <i class="fas fa-external-link-alt"></i>
+
+            </a></td>
+            <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.coursera.org/learn/python-for-applied-data-science-ai'>Python Basics <br/>( Complete Week 2)  <i class="fas fa-external-link-alt"></i>
+
+            </a></td>
+            <td class="column100 column5" data-column="column4">---</td>
+          </tr>
+
+          <tr class="row100">
+            <td class="column100 column1" data-column="column1">Day 2</td>
+            <td class="column100 column2" data-column="column1">Missing values, outlier data can trouble you. Let us introduce <strong>Pandas</strong>-the most famous data manipulation library in python.</td>
+            <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.coursera.org/learn/python-for-applied-data-science-ai'>Python Basics (Week 3 Before Objects)  <i class="fas fa-external-link-alt"></i>
+
+            </a></td>
+            <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=e60ItwlZTKM'>Intro to Pandas  <i class="fas fa-external-link-alt"></i></a></td>
+            <td class="column100 column5" data-column="column4">---</td>
+          </tr>
+
+          <tr class="row100">
+            <td class="column100 column1" data-column="column1">Day 3</td>
+            <td class="column100 column2" data-column="column1">Let's look into <strong>Numpy</strong>, the scientific computing library of Python. It will save you from doing heavy mathematical calculations. Also, let's delve a bit deeper into <strong>Pandas</strong>.</td>
+            <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=a8aDcLk4vRc'>Intro to Numpy  <i class="fas fa-external-link-alt"></i></a></td>
+            <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='http://cs231n.github.io/python-numpy-tutorial/'>Python , Pandas, Numpy Refresher  <i class="fas fa-external-link-alt"></i></a></td>
+            <td class="column100 column5" data-column="column4"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=yzIMircGU5I&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=1'>Data Analysis in Python [ Video 1 - 9 ]  <i class="fas fa-external-link-alt"></i></a></td>
+          </tr>
+
+          <tr class="row100">
+            <td class="column100 column1" data-column="column1">Day 4</td>
+            <td class="column100 column2" data-column="column1">Let's play some more with data. We'll use <strong>Pandas</strong> and <strong>Numpy</strong> to learn more about <strong>Data analysis with Python</strong></td>
+            <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=B-r9VuK80dk&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=10'>Data Analysis in Python. <br/> [ Video 10 - 21 ]  <i class="fas fa-external-link-alt"></i></a></td>
+            <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://drive.google.com/drive/folders/1D2kDWObcZHCaABAfsIS25JNakf7GHRJr?fbclid=IwAR1bA8aJs8bTgZdX8P6BFrmd4R3KhADDGC6brrkjTA3_F1LPL56qRg5b0Ww'><strong>Ungraded</strong> Practice Assingment  <i class="fas fa-external-link-alt"></i></a></td>
+            <td class="column100 column5" data-column="column4">---</td>
+          </tr>
+
+          <tr class="row100">
+            <td class="column100 column1" data-column="column1">Day 5</td>
+            <td class="column100 column2" data-column="column1">We have learned the basics of How to torture the data. But where is the data? Let's learn <strong>Python Web Scrapping</strong>, an essential technique for data collection</td>
+            <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=0s_1IsROgDc&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=24'>Data Analysis in Python <br/> [ Video 24 - 30 ]  <i class="fas fa-external-link-alt"></i></a></td>
+            <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://youtu.be/s0s09FIwa9o?list=PLZP-ItUENjYhAy-387Dzw-ZkL-6ckz9h3&t=3046'>Intro to Python Web Scraping  <i class="fas fa-external-link-alt"></i></a></td>
+            <td class="column100 column5" data-column="column4">---</td>
+          </tr>
+
+          <tr class="row100">
+            <td class="column100 column1" data-column="column1">Assignments</td>
+            <td class="column100 column2" data-column="column2">Deadline: <strong>22 April, 2020</strong></td>
+            <td class="column100 column3" data-column="column3"><a class="links" target="_blank" href="https://drive.google.com/drive/folders/19Bh_7S4xWJgZHg9G2g8BVeadKrjRKtfL">Week 1 Assingment <br/> (Graded)  <i class="fas fa-external-link-alt"></i></a></td>
+            <td class="column100 column4" data-column="column4"><a class="links" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd_NgQo6i6sGRVH9QY-2YuyDFxcutH_boVMXecmZ6acT2Hujg/viewform">Week 1 Quiz  <i class="fas fa-external-link-alt"></i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <a href="http://caciitg.in/sa2020/dashboard.html" class="instructions" target="_blank">Click here to visit the dashboard</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id='week2' class="tabcontent">
+      <div class="limiter">
+        <div class="container-table100">
+          <div class="wrap-table100">
+      <div class="table100 ver3 m-b-110">
+        <table data-vertable="ver3">
+          <thead>
+            <tr class="row100 head">
+              <th class="column100 column1" data-column="column1">Week 2</th>
+              <th class="column100 column2" data-column="column1">What's in there?</th>
+              <th class="column100 column3" data-column="column2">Task 1</th>
+              <th class="column100 column4" data-column="column3">Task 2</th>
+              <th class="column100 column5" data-column="column4">Task 3</th>          
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="row100">
+              <td class="column100 column1" data-column="column1">Day 0</td>
+              <td class="column100 column2" data-column="column1">Getting Started <br/> Follow two links on the right before proceeding</td>
+              <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://caciitg.in/sa2020/setting_environment.html'>Setting up your Environent  <i class="fas fa-external-link-alt"></i>
+              <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://drive.google.com/file/d/1lqL2xTYAWE2mwXPXhXW1Ptz3sfhh7vPL/view?usp=sharing'>Enrollment Instructions for Coursera  <i class="fas fa-external-link-alt"></i>
+              </a></td>
+              <td class="column100 column5" data-column="column4">---</td>
+            </tr>  
+
+            <tr class="row100">
+              <td class="column100 column1" data-column="column1">Day 1</td>
+              <td class="column100 column2" data-column="column1">Hey, excited for Week 2? This week will teach you the basics of <strong>Data Visualizations</strong>. Before starting, you need to know the types of Data we deal with and different viz tools for them!</td>
+              <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://towardsdatascience.com/data-types-in-statistics-347e152e8bee'>Data Types in Statistics  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=uHRqkGXX55I'>Basic Charts  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column5" data-column="column4">---</td>
+            </tr>
+  
+            <tr class="row100">
+              <td class="column100 column1" data-column="column1">Day 2</td>
+              <td class="column100 column2" data-column="column1">Like Numpy and Pandas being the library for Data Analysis, <strong>Matplotlib</strong> is the library for Data Visualization in Python. Let us explore!</td>
+              <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.klipfolio.com/resources/articles/what-is-data-visualization'>Data Visualization  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=yZTBMMdPOww'>Matplotlib Tutorial  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column5" data-column="column4  ">---</td>
+            </tr>
+  
+            <tr class="row100">
+              <td class="column100 column1" data-column="column1">Day 3</td>
+              <td class="column100 column2" data-column="column1">Dealing with large tables of data can be overwhelming! Just observing the rows of tables won't lead us anywhere. But fortunately we can smartly summarize data via "Number Summaries" (a.ka as <strong>Descriptive Statistics</strong>)</td>
+              <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=mk8tOD0t8M0'>Measures of Central Tendency, Range and St. Deviation  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=tpToLyZibKM'>Number Summary, Boxplots and Outliers  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column5" data-column="column4"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=tpToLyZibKM'>Comparing Boxplots  <i class="fas fa-external-link-alt"></i></a></td>
+            </tr>
+  
+            <tr class="row100">
+              <td class="column100 column1" data-column="column1">Day 4</td>
+              <td class="column100 column2" data-column="column1">Often the data we deal with can have various issues like <strong>missing values</strong> and <strong>outliers</strong>. Today we will learn about basic techniques to deal with such issues!</td>
+              <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=rzR_cKnkD18'>Outlier Analysis  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=P_iMSYQnqac'>Handling Missing Values  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column5" data-column="column4">---</td>
+            </tr>
+  
+            <tr class="row100">
+              <td class="column100 column1" data-column="column1">Day 5</td>
+              <td class="column100 column2" data-column="column1">Let us encapsulate the various techniques we learned above into well-known starting step in Data Science - <strong>Exploratory Data Analysis</strong>.</td>
+              <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://youtu.be/IVyN9kAJ0ak?list=PLZP-ItUENjYhAy-387Dzw-ZkL-6ckz9h3&t=2'>Effective Visualizations and EDA  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://towardsdatascience.com/a-gentle-introduction-to-exploratory-data-analysis-f11d843b8184'>EDA Refresher  <i class="fas fa-external-link-alt"></i></a></td>
+              <td class="column100 column5" data-column="column4">---</td>
+            </tr>
+  
+            <tr class="row100">
+              <td class="column100 column1" data-column="column1">Assignments</td>
+              <td class="column100 column2" data-column="column2"></td>
+              <td class="column100 column3" data-column="column3"><a class="links" target="_blank" href="/quiz_w1.html">Assingments will uploaded soon</a></td>
+              <td class="column100 column4" data-column="column4"></td>
+            </tr>
+          </tbody>
+  
+        </table>
+      </div>
+      <a href="http://caciitg.in/sa2020/dashboard.html" class="instructions" target="_blank">Click here to visit the dashboard</a>
+    </div>
+      </div>
+      </div>
+      </div>
+      <div id='week3' class="tabcontent">
+        <div class="limiter">
+          <div class="container-table100">
+            <div class="wrap-table100">
+        <div class="table100 ver3 m-b-110">
+          <table data-vertable="ver3">
+            <thead>
+              <tr class="row100 head">
+                <th class="column100 column1" data-column="column1">Week 3</th>
+                <th class="column100 column2" data-column="column1">What's in there?</th>
+                <th class="column100 column3" data-column="column2">Task 1</th>
+                <th class="column100 column4" data-column="column3">Task 2</th>
+                <th class="column100 column5" data-column="column4">Task 3</th>          
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="row100">
+                <td class="column100 column1" data-column="column1">Day 0</td>
+                <td class="column100 column2" data-column="column1">Getting Started <br/> Follow two links on the right before proceeding</td>
+                <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://caciitg.in/sa2020/setting_environment.html'>Setting up your Environent  <i class="fas fa-external-link-alt"></i>
+                <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://drive.google.com/file/d/1lqL2xTYAWE2mwXPXhXW1Ptz3sfhh7vPL/view?usp=sharing'>Enrollment Instructions for Coursera  <i class="fas fa-external-link-alt"></i>
+                </a></td>
+                <td class="column100 column5" data-column="column4">---</td>
+              </tr>  
+  
+              <tr class="row100">
+                <td class="column100 column1" data-column="column1">Day 1</td>
+                <td class="column100 column2" data-column="column1">Lets get started, Today we aren't gonna be too technical, let us just motivate ourselves about ML, get to know its application, and have a rudimentary understanding of what <strong>ML</strong> is.</td>
+                <td class="column100 column3" data-column="column2">
+                                                                        <li><a class="links" target="_blank" href='https://drive.google.com/file/d/1NCgTcIRcGDpeGS5lnnifpvSpB8mr47PP/view'><strong>[Reading]</strong> Chapter 1<br/> <strong>Page No.  1 - 5</strong>  <i class="fas fa-external-link-alt"></i></a><br/><br/>
+                                                                        <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=ukzFI9rgwfU'><strong>[Video]</strong> Intro to ML  <i class="fas fa-external-link-alt"></i></a>
+                                                                    
+                </td>
+                <td class="column100 column4" data-column="column3">
+                  <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=f_uwKZIAeM0'>What is Machine Learning  <i class="fas fa-external-link-alt"></i></a><br/><br/>
+                  <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=xtOg44r6dsE'>Introduction to types of ML  <i class="fas fa-external-link-alt"></i></a>
+              
+                </td>
+                <td class="column100 column5" data-column="column4"><a class="links" target="_blank" href='https://machinelearningknowledge.ai/machine-learning-examples/'>Machine Learning Examples  <i class="fas fa-external-link-alt"></i></a></td>
+              </tr>
+    
+              <tr class="row100">
+                <td class="column100 column1" data-column="column1">Day 2</td>
+                <td class="column100 column2" data-column="column1">Starting at the grass root level, we study in depth, the simplest ML model <strong>Linear Regression</strong>, <strong>Cost function</strong> and <strong>Gradient Descent</strong>, Don't worry if it sounds too hard, trust us it isn't.</td>
+                <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=kHwlB_j7Hkc&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=4'>Linear Regression in one variable<br/> Video 2.1 - 2.6  <i class="fas fa-external-link-alt"></i></a></td>
+                <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=Dft1cqjwlXE&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=12'>Linear Algebra Review <br/>(3.1 - 3.6) (Optional, not required if you have a mathematical base)  <i class="fas fa-external-link-alt"></i></a></td>
+                <td class="column100 column5" data-column="column4  "><a class="links" target="_blank" href='https://towardsdatascience.com/everything-you-need-to-know-about-linear-regression-b791e8f4bd7a'>Linear Regression Blog <i class="fas fa-external-link-alt"></i></a></td>
+              </tr>
+    
+              <tr class="row100">
+                <td class="column100 column1" data-column="column1">Day 3</td>
+                <td class="column100 column2" data-column="column1">Let us spice things up a bit, we study Linear regression again but this time with <strong>Multiple features</strong>, also we are introduced to our first ever classification model, <strong>The Logistic Regression</strong></td>
+                <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=Q4GNLhRtZNc&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=18'>Linear Regression in Multiple Variable</br> Video 4.1-4.7  <i class="fas fa-external-link-alt"></i></a></td>
+                <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=gPegoVYp64w&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=14'>Logistic Regression<br/>Video 6.1-6.7  <i class="fas fa-external-link-alt"></i></a></td>
+                <td class="column100 column5" data-column="column4"><a class="links" target="_blank"> ---- </a></td>
+              </tr>
+    
+              <tr class="row100">
+                <td class="column100 column1" data-column="column1">Day 4</td>
+                <td class="column100 column2" data-column="column1">Now as we have covered 2 basic ML models, let us take a break and learn about <strong>Overfitting</strong>, <strong>Underfitting</strong>, <strong>Bias- Variance Tradeoff</strong> and <Strong>Regularization</Strong>, these can help in telling you the complexity of your model how well your model has used your data</td>
+                <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://drive.google.com/file/d/1NCgTcIRcGDpeGS5lnnifpvSpB8mr47PP/view'><strong>[Reading]</strong> Chapter 2 <br/> ( Subtopic - Generalization, Overfitting and Underfitting )<br/> <strong>Page No. 26-29</strong>  <i class="fas fa-external-link-alt"></i></a></td>
+                <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=P_iMSYQnqac'> <a class="links" target="_blank" href='https://medium.com/@martinezbielosdaniel/bias-variance-tradeoff-overfitting-and-underfitting-c63799cb4851-'><strong>[Reading]</strong> Bias Variance Tradeoff  <i class="fas fa-external-link-alt"></i></a><br/><br/>
+                  <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=EuBBz3bI-aA'><strong>[Video]</strong> Bias Variance Tradeoff <i class="fas fa-external-link-alt"></i></a> </td>
+                <td class="column100 column5" data-column="column4"><a class="links" target="_blank" href='https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN'>Regularization <br/> Video 7.1 - 7.4  <i class="fas fa-external-link-alt"></i></a></td>
+                </tr>
+
+              <tr class="row100">
+                <td class="column100 column1" data-column="column1">Day 5 <strong>(Optional)</strong></td>
+                <td class="column100 column2" data-column="column1">This part is completely optional and it includes <strong>Ridge</strong>, <strong>Lasso</strong> and <strong>Elastic Net regression</strong>.</td>
+                <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://towardsdatascience.com/bias-variance-and-regularization-in-linear-regression-lasso-ridge-and-elastic-net-8bf81991d0c5'><strong>[Blog]</strong> Lasso, Ridge and Elastic Net Regression  <i class="fas fa-external-link-alt"></i></a></td>
+                <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=KIoz_aa1ed4'><strong>[Video]</strong> Lasso, Ridge and Elastic Net Regression  <i class="fas fa-external-link-alt"></i></a></td>
+                <td class="column100 column5" data-column="column4">---</td>
+              </tr>
+    
+              <tr class="row100">
+                <td class="column100 column1" data-column="column1">Assignments</td>
+                <td class="column100 column2" data-column="column2"></td>
+                <td class="column100 column3" data-column="column3"><a class="links" target="_blank" href="/quiz_w1.html">Assingments will be uploaded soon</a></td>
+                <td class="column100 column4" data-column="column4"></td>
+              </tr>
+            </tbody>
+    
+          </table>
+        </div>
+        <a href="http://caciitg.in/sa2020/dashboard.html" class="instructions" target="_blank">Click here to visit the dashboard</a>
+      </div>
+        </div>
+        </div>
+        </div>
+        <div id='week4' class="tabcontent">
+          <div class="limiter">
+            <div class="container-table100">
+              <div class="wrap-table100">
+          <div class="table100 ver3 m-b-110">
+            <table data-vertable="ver3">
+              <thead>
+                <tr class="row100 head">
+                  <th class="column100 column1" data-column="column1">Week 4</th>
+                  <th class="column100 column2" data-column="column1">What's in there?</th>
+                  <th class="column100 column3" data-column="column2">Task 1</th>
+                  <th class="column100 column4" data-column="column3">Task 2</th>
+                  <th class="column100 column5" data-column="column4">Task 3</th>          
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="row100">
+                  <td class="column100 column1" data-column="column1">Day 0</td>
+                  <td class="column100 column2" data-column="column1">Getting Started <br/> Follow two links on the right before proceeding</td>
+                  <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://caciitg.in/sa2020/setting_environment.html'>Setting up your Environent  <i class="fas fa-external-link-alt"></i>
+                  <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://drive.google.com/file/d/1lqL2xTYAWE2mwXPXhXW1Ptz3sfhh7vPL/view?usp=sharing'>Enrollment Instructions for Coursera  <i class="fas fa-external-link-alt"></i>
+                  </a></td>
+                  <td class="column100 column5" data-column="column4">---</td>
+                </tr>  
+    
+                <tr class="row100">
+                  <td class="column100 column1" data-column="column1">Day 1</td>
+                  <td class="column100 column2" data-column="column1">Lets get started, Today we'll learn <strong>Sklearn</strong> implementation of <strong>linear</strong> and <strong>logistic</strong> regression and learning to use ML libraries</td>
+                  <td class="column100 column3" data-column="column2">
+                                                                          <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=b0L47BeklTE'>Linear Regression with Scikit-Learn <i class="fas fa-external-link-alt"></i></a><br/><br/>
+                                                                      
+                  </td>
+                  <td class="column100 column4" data-column="column2">
+                    <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=zM4VZR0px8E'>Logistic Regression with Scikit-Learn <i class="fas fa-external-link-alt"></i></a><br/><br/>
+                
+                  </td>
+                  <td class="column100 column5" data-column="column4"><a class="links" target="_blank" href='#'>-----</a></td>
+                </tr>
+      
+                <tr class="row100">
+                  <td class="column100 column1" data-column="column1">Day 2</td>
+                  <td class="column100 column2" data-column="column1">Today, we'll learn the theory behind <strong>SVM</strong> and it's implementation using <strong>Scikit learn</strong></td>
+                  <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=FB5EdxAGxQg&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&index=11'>SVM Intution  <i class="fas fa-external-link-alt"></i></a></td>
+                  <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python'>SVM Tutorial <i class="fas fa-external-link-alt"></i></a></td>
+                  <td class="column100 column5" data-column="column4  "><a class="links" target="_blank" href='#'>----</a></td>
+                </tr>
+      
+                <tr class="row100">
+                  <td class="column100 column1" data-column="column1">Day 3</td>
+                  <td class="column100 column2" data-column="column1">Diving deeper, we learn the intuition behind <strong>decision trees</strong> and <strong>random forests</strong> and implement it using <strong>scikit learn</strong></td>
+                  <td class="column100 column3" data-column="column2"><li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=PHxYNGo8NcI&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&index=10'>Decision Trees  <i class="fas fa-external-link-alt"></i></a></li></br>
+                                                                      <li><a class="links" target="_blank" href='https://www.datacamp.com/community/tutorials/decision-tree-classification-python'>Decision Tree Tutorial  <i class="fas fa-external-link-alt"></i></a></li>  
+                  </td>
+                  <td class="column100 column3" data-column="column2"><li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=ok2s1vV9XW0&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&index=12'>Random Forest  <i class="fas fa-external-link-alt"></i></a></li></br>
+                                                                      <li><a class="links" target="_blank" href='https://www.datacamp.com/community/tutorials/random-forests-classifier-python'>RF Tutorial  <i class="fas fa-external-link-alt"></i></a></li>  
+                    </td>
+
+                  <td class="column100 column5" data-column="column4"><a class="links" target="_blank"> ---- </a></td>
+                </tr>
+      
+                <tr class="row100">
+                  <td class="column100 column1" data-column="column1">Day 4</td>
+                  <td class="column100 column2" data-column="column1">Today we learn about the intricacies involved in applying machine learning algorithms, and how to evaluate them</td>
+                  <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://towardsdatascience.com/regression-an-explanation-of-regression-metrics-and-what-can-go-wrong-a39a9793d914'>Regression  <i class="fas fa-external-link-alt"></i></a></td>
+                  <td class="column100 column4" data-column="column3"><li><a class="links" target="_blank" href='http://www.youtube.com/watch?v=CYy0TZ6OIDw'>Confusion Matrix  <i class="fas fa-external-link-alt"></i></a></li><br/>
+                                                  <li><a class="links" target="_blank" href='https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5'>AUC - ROC <i class="fas fa-external-link-alt"></i></a> </td>
+                  <td class="column100 column5" data-column="column4"><li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=vP06aMoz4v8'>Sensitivity, Specificity  <i class="fas fa-external-link-alt"></i></a></li></br>
+                                                                     <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=4jRBRDbJemM'>AUC - ROC Video  <i class="fas fa-external-link-alt"></i></a></li>
+                                                                    </td>   
+                </tr>
+  
+                <tr class="row100">
+                  <td class="column100 column1" data-column="column1">Day 5</td>
+                  <td class="column100 column2" data-column="column1">The most important topic in data science, is selecting the appropriate features and it is something which sets you apart from the rest</td>
+                  <td class="column100 column3" data-column="column2">
+                    <li><a class="links" target="_blank" href='https://drive.google.com/file/d/1NCgTcIRcGDpeGS5lnnifpvSpB8mr47PP/view'>Ch 5 <strong>Pg 220-224</strong>  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=iv_ec0EfXcE'>Binning  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://towardsdatascience.com/methods-for-dealing-with-imbalanced-data-5b761be45a18'>Imbalanced Data 1  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://www.analyticsvidhya.com/blog/2017/03/imbalanced-data-classification/'>Imbalanced Data 2  <i class="fas fa-external-link-alt"></i></a></li>  
+                  </td>
+                  <td class="column100 column4" data-column="column3">
+                    <li><a class="links" target="_blank" href='https://towardsdatascience.com/top-3-methods-for-handling-skewed-data-1334e0debf45'>Skewed Data  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://towardsdatascience.com/polynomial-regression-bbe8b9d97491'>Poly. Features  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=Qnt2vBRW8Io'>Poly. Features Vid.  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://towardsdatascience.com/the-5-feature-selection-algorithms-every-data-scientist-need-to-know-3a6b566efd2'>Feature Selection  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://www.youtube.com/watch?v=EqLBAmtKMnQ'>Feature Sel. Video  <i class="fas fa-external-link-alt"></i></a></li>  
+                  </td>
+                  <td class="column100 column4" data-column="column3">
+                    <li><a class="links" target="_blank" href='https://towardsdatascience.com/hyperparameter-tuning-c5619e7e6624'>Hyperparameter Tuning  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://www.kaggle.com/learn/intro-to-machine-learning'>ML Micro Course 1  <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a class="links" target="_blank" href='https://www.kaggle.com/learn/intermediate-machine-learning'>ML Micro Course 2  <i class="fas fa-external-link-alt"></i></a></li>
+                  </td>
+
+                </tr>
+      
+                <tr class="row100">
+                  <td class="column100 column1" data-column="column1">Assignments</td>
+                  <td class="column100 column2" data-column="column2"></td>
+                  <td class="column100 column3" data-column="column3"><a class="links" target="_blank" href="/quiz_w1.html">Assingments will be uploaded soon</a></td>
+                  <td class="column100 column4" data-column="column4"></td>
+                </tr>
+              </tbody>
+      
+            </table>
+          </div>
+          <a href="http://caciitg.in/sa2020/dashboard.html" class="instructions" target="_blank">Click here to visit the dashboard</a>
+        </div>
+          </div>
+          </div>
+          </div>
+          <div id='week5' class="tabcontent">
+            <div class="limiter">
+              <div class="container-table100">
+                <div class="wrap-table100">
+            <div class="table100 ver3 m-b-110">
+              <table data-vertable="ver3">
+                <thead>
+                  <tr class="row100 head">
+                    <th class="column100 column1" data-column="column1">Week 5</th>
+                    <th class="column100 column2" data-column="column1">What's in there?</th>
+                    <th class="column100 column3" data-column="column2">Task 1</th>
+                    <th class="column100 column4" data-column="column3">Task 2</th>
+                    <th class="column100 column5" data-column="column4">Task 3</th>          
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="row100">
+                    <td class="column100 column1" data-column="column1">Day 0</td>
+                    <td class="column100 column2" data-column="column1">Getting Started <br/> Follow two links on the right before proceeding</td>
+                    <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://caciitg.in/sa2020/setting_environment.html'>Setting up your Environent  <i class="fas fa-external-link-alt"></i>
+                    <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://drive.google.com/file/d/1lqL2xTYAWE2mwXPXhXW1Ptz3sfhh7vPL/view?usp=sharing'>Enrollment Instructions for Coursera  <i class="fas fa-external-link-alt"></i>
+                    </a></td>
+                    <td class="column100 column5" data-column="column4">---</td>
+                  </tr>  
+      
+                  <tr class="row100">
+                    <td class="column100 column1" data-column="column1">Day 1</td>
+                    <td class="column100 column2" data-column="column1"> Welcome to the final week of Learning, as next week is Capstone Project This week we will discuss <strong>Neural Networks</strong> and <strong>Unsupervised Learning</strong>. Today Let us go into the foundations of <strong>Neural Networks</strong></td>
+                    <td class="column100 column3" data-column="column2"><a class="links" target="_blank"> ------ </a></td>
+                    <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN'>Neural Networks<br> <strong>(8.1 - 9.8)</strong> <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column5" data-column="column4  "><a class="links" target="_blank" href='#'>----</a></td>
+                  </tr>
+        
+                  <tr class="row100">
+                    <td class="column100 column1" data-column="column1">Day 2</td>
+                    <td class="column100 column2" data-column="column1">Today we will discuss the <strong>sklearn implementation</strong> and read upon the documentation of Neural Nets (light reading no need to go so deep)</td>
+                    <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.pluralsight.com/guides/machine-learning-neural-networks-scikit-learn'>NN Blog  <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://scikit-learn.org/stable/modules/neural_networks_supervised.html'>NN Documentation <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column5" data-column="column4  "><a class="links" target="_blank" href='#'>----</a></td>
+                  </tr>
+        
+                  <tr class="row100">
+                    <td class="column100 column1" data-column="column1">Day 3</td>
+                    <td class="column100 column2" data-column="column1"> Today we will wrap up <strong>Neural Networks</strong> with 2 final videos! </td>
+                    <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=aircAruvnKk'>NN Video 1  <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=X8SPO875mQY'>NN Video 2 <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column5" data-column="column4  "><a class="links" target="_blank" href='#'>----</a></td>
+                  </tr>
+        
+                  <tr class="row100">
+                    <td class="column100 column1" data-column="column1">Day 4</td>
+                    <td class="column100 column2" data-column="column1">Let us have a look at <strong>unsupervised learning</strong>, its uses and types. We will also look at one particular algorithm the <strong>K-means method</strong></td>
+                    <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.guru99.com/unsupervised-machine-learning.html'>Unsupervised Learning  <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=EItlUEPCIzM&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&index=14'>Clustering (k-means) <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column5" data-column="column4  "><a class="links" target="_blank" href='#'>----</a></td>
+
+                  </tr>
+    
+                  <tr class="row100">
+                    <td class="column100 column1" data-column="column1">Day 5</td>
+                    <td class="column100 column2" data-column="column1">Today we will discuss <strong>PCA</strong> and its application through <strong>scikit learn</strong></td>
+                    <td class="column100 column3" data-column="column2"><a class="links" target="_blank" href='https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN'>Dimensionality reduction(PCA) <br> <strong>14.1 - 14.7</strong>  <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column4" data-column="column3"><a class="links" target="_blank" href='https://www.youtube.com/watch?v=4KuF5HRAQn8&list=PLupD_xFct8mFgtBPBHAAmYbUgqDzzKOlP&index=9'>PCA using sklearn <i class="fas fa-external-link-alt"></i></a></td>
+                    <td class="column100 column5" data-column="column4  "><a class="links" target="_blank" href='#'>----</a></td>
+                  </tr>
+        
+                  <tr class="row100">
+                    <td class="column100 column1" data-column="column1">Assignments</td>
+                    <td class="column100 column2" data-column="column2"></td>
+                    <td class="column100 column3" data-column="column3"><a class="links" target="_blank" href="/quiz_w1.html">Assingments will be uploaded soon</a></td>
+                    <td class="column100 column4" data-column="column4"></td>
+                  </tr>
+                </tbody>
+        
+              </table>
+            </div>
+            <a href="http://caciitg.in/sa2020/dashboard.html" class="instructions" target="_blank">Click here to visit the dashboard</a>
+          </div>
+            </div>
+            </div>
+            </div>
+  
+  
+       </div>
+      </div>
+     </div>
+    </div>
+    
+    <script>
+      function openWeek(event, weekName) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+  
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+  
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+  
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(weekName).style.display = "block";
+      evt.currentTarget.className += " active";
+  
+  
+    }
+    document.getElementById("defaultOpen").click();
+
+    </script>
+  
+   
+   
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
