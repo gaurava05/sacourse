@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SA Certis</title>
+	</head>
+	<body>
+		<h1>
+			List of people
+		</h1>
+		<% for(var i=0;i<users.length;i++){ %>
+		<a href='/sa/verify/<%= users[i]._id %>'><%= users[i].Name %></a>
+		<br>
+		<%}%>
+		
+	</body>
+</html>
